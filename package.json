@@ -1,0 +1,15 @@
+{
+  "name": "hummingbird",
+  "module": "index.ts",
+  "type": "module",
+  "workspace": [
+    "apps/*",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
