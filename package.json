@@ -2,6 +2,7 @@
   "name": "hummingbird",
   "module": "index.ts",
   "type": "module",
+  "private": true,
   "workspace": [
     "apps/*",
     "packages/*"
